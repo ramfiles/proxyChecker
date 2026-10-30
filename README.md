@@ -19,7 +19,7 @@ pip install requests
 
 How to Download
 ```git
-git clone [https://github.com/ramfiles/proxyChecker.git](https://github.com/ramfiles/proxyChecker.git)
+git clone https://github.com/ramfiles/proxyChecker.git
 cd proxyChecker
 ```
 
