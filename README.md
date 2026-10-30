@@ -17,16 +17,21 @@ Make sure you have Python installed along with the `requests` library. You can i
 pip install requests
 ```
 
+How to Download
+git clone [https://github.com/ramfiles/proxyChecker.git](https://github.com/ramfiles/proxyChecker.git)
+cd proxyChecker
+
 
 How to Use
 Clone or download this repository.
 
-Create a text file named proxies.txt in the same directory and add your proxies (one per line, e.g., IP:PORT or with protocols like http://IP:PORT).
+Add the proxies to the proxies.txt file, one per line (for example, in the format IP:PORT, or including protocols such as http://IP:PORT).
 
 Run the script:
 
-Bash
-python script.py
+```bash
+python main.py
+```
 Once the process is complete, you will find all working proxies saved in working.txt.
 
 Code Configuration
