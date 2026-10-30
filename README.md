@@ -1,6 +1,4 @@
-# proxyChecker
-
-# Simple Python Proxy Checker
+# Python Proxy Checker
 
 A lightweight and fast multi-threaded proxy checker written in Python. It reads proxies from a text file, tests them concurrently using `ThreadPoolExecutor`, and saves the working ones to a separate file.
 
